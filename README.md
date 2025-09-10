@@ -1,7 +1,7 @@
-**📌 CRUD Application with Flask**
+📌 CRUD Application with Flask
 
-**🚀 Overview
-**
+🚀 Overview
+
 
 This is a simple CRUD (Create, Read, Update, Delete) web application built using Flask.
 It allows users to:
@@ -16,8 +16,8 @@ It allows users to:
 
 The app uses Flask, SQLAlchemy, and a database (SQLite/MySQL) for backend storage.
 
-**🛠️ Tech Stack
-**
+🛠️ Tech Stack
+
        
         Backend: Flask (Python)
         
