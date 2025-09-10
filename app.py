@@ -6,7 +6,9 @@ from datetime import datetime
 app=Flask(__name__)
 Scss(app)
 
-app.config["SQLALCHEMY_DATABASE_URI"]="sqlite:///database.db"
+# app.config["SQLALCHEMY_DATABASE_URI"]="sqlite:///database.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:root%40123@localhost/crudApp"
+
 app.config["SQLALCHEMY_TRACK_MODIFICARION"]=False
 db=SQLAlchemy(app)
 
